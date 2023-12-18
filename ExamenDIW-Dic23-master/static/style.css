@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  background-color: rgba(0, 40, 88, 0.6666666667);
+  font-size: 16px;
+}
+
+#content {
+  margin-left: 5%;
+  padding: 16px;
+}
+#content h1 {
+  color: #ffc836;
+  text-align: center;
+}
+#content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+#content table th, #content table td {
+  border: 4px solid #ffc836;
+  padding: 10px;
+  text-align: center;
+  color: #002858;
+}
+#content table td:nth-child(6) {
+  border-radius: 8px;
+}
+#content table th {
+  background-color: #ffc836;
+  color: #002858;
+}
+#content table tr:hover {
+  background-color: #ffc836;
+  color: #002858;
+}
+#content p {
+  color: #ffc836;
+  text-align: center;
+}
+#content button {
+  background-color: #ffc836;
+  color: #002858;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+#content button:hover {
+  background-color: #ffd669;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+#content button:active {
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(2px);
+}
+
+#navbar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #002858;
+  padding-top: 20px;
+  color: #ffc836;
+}
+#navbar img {
+  width: 80%;
+  margin: 10px 10%;
+}
+#navbar a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #ffc836;
+  transition: 0.3s;
+}
+#navbar a:hover {
+  background-color: #ffc836;
+  color: #002858;
+}
+
+#content1 {
+  margin-left: 5%;
+  padding: 16px;
+}
+#content1 h2 {
+  color: #ffc836;
+  text-align: center;
+}
+#content1 .form-row {
+  margin-bottom: 10px;
+}
+#content1 .form-row:hover {
+  background-color: #ffc836;
+  border: 2px solid #ffc836;
+  border-radius: 8px;
+}
+#content1 label {
+  display: block;
+  margin-bottom: 5px;
+}
+#content1 input, #content1 select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#content1 button {
+  background-color: #ffc836;
+  color: #002858;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+#content1 button:hover {
+  background-color: #ffd669;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+#content1 button:active {
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(2px);
+}/*# sourceMappingURL=style.css.map */
